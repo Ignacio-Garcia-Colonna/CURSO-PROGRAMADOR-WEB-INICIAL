@@ -5,20 +5,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi primer html</title>
+    <link rel="stylesheet" href="cv.css">
+
 </head>
 
 <body>
     <!--esto es un comentario en HTML-->
     <h1>Ignacio Garcia Colonna</h1>
     <!--<h2>encabezado 2 </h2>-->
-    <img src="imagen mia.jpg" alt="imagen" />
+    <img src="imagen mia1.jpg" alt="imagen" />
     <h2>Edad</h2>
     <h3>23 años (08/04/2001)</h3>
     <h2>Domicilio</h2>
     <h3>Calle Luna 1202, Palma de Mallorca.</h3>
     <h2>Educacion</h2>
     <ul>
-        <li>Titulo secundario: Colegio Jesus Obrero, Mar del Plata (2018).</li>
+        <li><span class="destacados">Titulo secundario:</span> Colegio Jesus Obrero, Mar del Plata (2018).</li>
     </ul>
     <h2>Experiencia Laboral</h2>
     <ul>
@@ -26,7 +28,7 @@
         <li>Camarero de barra Bar Tambucho, Mallorca (2023-).</li>
     </ul>
     <h2>Habilidades</h2>
-    <ol>
+    <ol class="destacados">
         <li>Trabajo en equipo.</li>
         <li>Resolucion de problemas.</li>
         <li>Atencion al cliente.</li>
@@ -40,16 +42,83 @@
     <p>Si quieres contactarte, por favor ingresa al siguiente <a href="formulario.html" target="_blank">formulario</a>
     </p>
 
+    <div>
+        <h2>Historia</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa nobis repudiandae magni tempore aut quidem
+            necessitatibus cum officia excepturi quis dolore voluptates voluptate soluta ea recusandae, unde temporibus
+            quia velit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sapiente minima est similique numquam harum
+            porro ducimus. Magnam, ad neque nihil omnis a sint reiciendis autem nobis animi ex nemo.</p>
+    </div>
+
+    <body>
+        <audio src="audio.mp3" controls></audio>
+    </body>
+
+    <body>
+        <video src="ibiza.mp4" controls></video>
+    </body>
+
+    <body>
+        <img src="pelota.jpg" alt="jpg">
+    </body>
+
+    <body>
+        <svg width="100" heigth="100">
+            <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="red" />
+        </svg>
+    </body>
+    <div class="caja">
+        <h2>Titulo caja</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione maiores facilis, atque, ipsa placeat
+            dolorem corporis adipisci vero debitis, magni totam nulla ex hic. Voluptas harum laudantium nulla quae?</p>
+
+
+    </div>
+    <div id="caja2">
+        <h2>Titulo caja2</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit quia minima dolore, culpa hic nisi esse
+            obcaecati nesciunt dicta! Illum fugiat repellat quasi rem quod a unde neque consequatur sunt!</p>
+    </div>
+    <div id="contenedor">
+        <div id="verde">posicionamiento estatico</div>
+        <div id="amarillo">posicionamiento estatico</div>
+    </div>
+    <div id="contenedor2">
+        <div id="rojo">posicionamiento relativo</div>
+        <div id="azul">posicionamiento relativo</div>
+    </div>
+    <div id="contenedor3">
+        <div id="celeste">posicionamiento relativo absoluto</div>
+        <div id="naranja">tuve que subir el margin-top a 150px porque me quedaba superpuesto con el celeste</div>
 
 
 
 
-
-
-
-
-
-
+    </div>
+    <div id="fijo">cuadrado forma fija</div>
+    <div id="texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione facilis sint voluptatum fugiat et
+        cum mollitia officia! Optio in, cum eaque quod rerum culpa perspiciatis blanditiis tempore sit, quam iusto.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod laudantium ducimus ipsum rem harum aliquam,
+        dignissimos vero distinctio mollitia quos atque voluptas cupiditate est, doloremque porro quisquam quo
+        inventore? Nam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur sed totam in voluptates
+        voluptate. Omnis reprehenderit, aliquam voluptatem natus tempora est eaque, similique beatae tempore eligendi
+        possimus commodi voluptates ullam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae
+        quibusdam mollitia ratione consequatur laboriosam accusamus. Voluptatibus itaque, rem quis placeat voluptate
+        debitis obcaecati dolorum repellat quaerat praesentium necessitatibus corporis recusandae. Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Modi assumenda sapiente autem quam ipsa, provident odit laborum iusto quaerat
+        nihil. Eius a architecto adipisci delectus! Qui quibusdam totam velit debitis. Lorem ipsum, dolor sit amet
+        consectetur adipisicing elit. Sapiente voluptas voluptate, excepturi ex minima temporibus blanditiis aliquam
+        quae sequi totam possimus impedit officia consectetur molestiae deleniti ut, rem culpa nostrum?Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Ea minima similique, nulla illo incidunt ab ut sint sapiente asperiores
+        aut in voluptate nihil voluptates? Unde autem asperiores consequuntur recusandae? Nostrum. Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Porro esse quidem nihil repellat assumenda nemo facilis vel saepe, velit
+        harum sit corporis ipsum. Placeat, cupiditate consequuntur omnis reprehenderit quas repellendus! Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Officiis recusandae nostrum illo? Vitae perspiciatis impedit et
+        ipsa ullam voluptatibus eum sunt unde quidem similique, atque voluptatem laborum aliquam numquam distinctio.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam omnis libero aspernatur voluptas,
+        necessitatibus dolor? Quia aut voluptatibus, impedit, debitis hic animi, voluptatum tenetur qui rem consectetur
+        quam eos sit?</div>
 
 </body>
 
