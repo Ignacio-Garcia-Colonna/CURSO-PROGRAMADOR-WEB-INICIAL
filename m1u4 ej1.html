@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendemos JavaScript</title>
+</head>
+
+<body>
+    <script src="js/m1u4.js"></script>
+    <script>
+        const distancia1 = parseInt(prompt('Ingrese primer número:', ''));
+        const distancia2 = parseInt(prompt('Ingrese segundo número:', ''));
+        const distancia3 = parseInt(prompt('Ingrese tercer número:', ''));
+        const distancia4 = parseInt(prompt('Ingrese cuarto número:', ''));
+        const distancia5 = parseInt(prompt('Ingrese quinto número:', ''));
+        if (distancia1 > 0 && distancia1 < 1000) {
+            document.write(`pie ${distancia1}`);
+        } else if (distancia2 > distancia1 && distancia2 < 10000) {
+            document.write(`bicicleta  ${distancia2}`);
+        } else if (distancia3 > distancia2 && distancia3 < 30000) {
+            document.write(`colectivo  ${distancia3}`);
+        } else if (distancia4 > distancia3 && distancia4 < 100000) {
+            document.write(`auto  ${distancia4}`);
+        } else if (distancia5 > distancia4) {
+            document.write(`avion  ${distancia5}`);
+        }
+
+
+    </script>
+    
+</body>
+
+</html>
