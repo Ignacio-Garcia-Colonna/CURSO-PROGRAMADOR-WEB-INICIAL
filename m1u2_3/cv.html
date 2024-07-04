@@ -6,14 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi primer html</title>
     <link rel="stylesheet" href="cv.css">
-
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black
+        }
+    </style>
 </head>
 
 <body>
     <!--esto es un comentario en HTML-->
     <h1>Ignacio Garcia Colonna</h1>
     <!--<h2>encabezado 2 </h2>-->
-    <img src="imagen mia1.jpg" alt="imagen" width="400"/>
+    <img src="imagen mia1.jpg" alt="imagen" width="400" />
     <h2>Edad</h2>
     <h3>23 años (08/04/2001)</h3>
     <h2>Domicilio</h2>
@@ -32,6 +38,10 @@
         <li>Trabajo en equipo.</li>
         <li>Resolucion de problemas.</li>
         <li>Atencion al cliente.</li>
+        <ol>
+            <li style="list-style-type: lower-alpha;">Manejo de caja</li>
+            <li style="list-style-type: lower-alpha;">Animacion</li>
+        </ol>
     </ol>
     <h2>Pefil</h2>
     <p>Camarero con 2 años de experiencia, amplio conocimiento en coctelería, barismo y tareas de mantenimiento.</p>
@@ -328,7 +338,32 @@
         <div class="item4">caja 5</div>
 
     </div>
-
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pelota</td>
+                <td>$15000</td>
+            </tr>
+            <tr>
+                <td>Camiseta</td>
+                <td>$35000</td>
+            </tr>
+            <tr>
+                <td>Short</td>
+                <td>$20000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: $70000</td>
+        </tfoot>
+    </table>
 </body>
 
 </html>
