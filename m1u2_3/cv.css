@@ -4,7 +4,8 @@ h1 {
     font-weight: bold;
     background-color: violet;
     text-align: center;
-
+    text-decoration: underline;
+    text-shadow: 1px 1px;
 }
 
 img {
@@ -18,12 +19,17 @@ h2 {
     font-style: italic;
     font-weight: bold;
     background-color: violet;
+    text-decoration: underline;
+}
+
+.lista {
+    background-color: rgb(178, 175, 175);
 }
 
 .destacados {
     color: red;
     font-weight: bold;
-
+    background-color: rgb(178, 175, 175);
 }
 
 .caja {
@@ -524,4 +530,36 @@ h2 {
     width: 100px;
     /*height: 100px;*/
 
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: violet;
+}
+
+a:active {
+    color: green;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: solid #eec;
+    padding: 3px;
+}
+
+th {
+    background-color: green;
+    color: white;
 }
