@@ -24,12 +24,14 @@ h2 {
 
 .lista {
     background-color: rgb(178, 175, 175);
+    max-width: 600px;
 }
 
 .destacados {
     color: red;
     font-weight: bold;
     background-color: rgb(178, 175, 175);
+    max-width: 600px;
 }
 
 .caja {
@@ -562,4 +564,11 @@ td {
 th {
     background-color: green;
     color: white;
+}
+tr:nth-child(even){
+    background-color: #eee;
+}
+tr:hover{
+    background-color: #aaa;
+    cursor: pointer;
 }
